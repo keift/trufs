@@ -1,0 +1,32 @@
+{
+  "name": "fs-trusty",
+  "author": "keift",
+  "version": "1.0.0",
+  "description": "Trusty file writes and reads.",
+  "license": "MIT",
+  "main": "main.js",
+  "scripts": {
+    "dev": "nodemon ./test/test.js"
+  },
+  "dependencies": {
+    "atomically": "^2.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "engines": {
+    "node": ">= 14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keift/fs-trusty.git"
+  },
+  "keywords": [
+    "fs",
+    "file-system",
+    "atomic",
+    "atomically",
+    "atomic-reads",
+    "atomic-writes"
+  ]
+}
