@@ -1,7 +1,7 @@
 {
   "name": "fs-trusty",
   "author": "keift",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Trusty file reads and writes.",
   "license": "MIT",
   "main": "main.js",
