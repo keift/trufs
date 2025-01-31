@@ -8,7 +8,7 @@
 [Buffer]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer
 [Void]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Undefined
 
-# fs-trusty <img src="https://img.shields.io/npm/v/fs-trusty?label=version&color=%234472E7"/> <img src="https://img.shields.io/npm/l/fs-trusty?label=license&color=%234472E7"/> <img src="https://img.shields.io/node/v/fs-trusty?&label=node&color=%2300927F"/> <img src="https://img.shields.io/npm/dt/fs-trusty?&label=downloads&color=%2300927F"/>
+# fs-trusty <img src="https://img.shields.io/npm/v/fs-trusty?label=version&color=%234472E7"/> <img src="https://img.shields.io/npm/l/fs-trusty?label=license&color=%234472E7"/> <img src="https://img.shields.io/node/v/fs-trusty?label=node&color=%2300927F"/> <img src="https://img.shields.io/npm/dt/fs-trusty?label=downloads&color=%2300927F"/>
 
 ## Contents
 
