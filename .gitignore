@@ -1,4 +1,4 @@
-**/node_modules
-**/test/*.txt*
 **/bun.lock
+**/node_modules
 **/package-lock.json
+**/test/*.txt*

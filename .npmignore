@@ -1,6 +1,9 @@
 **/.github
-**/test
+**/bun.lock
 **/CHANGELOG.md
-**/install.bat
 **/fs-trusty.code-workspace
+**/install.bat
+**/node_modules
+**/package-lock.json
 **/run.bat
+**/test
