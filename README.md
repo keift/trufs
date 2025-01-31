@@ -8,7 +8,7 @@
 [Buffer]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer
 [Void]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Undefined
 
-# FS-TRUSTY
+# fs-trusty <img src="https://img.shields.io/npm/v/fs-trusty?color=%234472E7&label=version"/> <img src="https://img.shields.io/npm/l/fs-trusty?color=%234472E7&label=license"/> <img src="https://img.shields.io/node/v/fs-trusty?color=%2300927F&label=node"/> <img src="https://img.shields.io/npm/dt/fs-trusty?color=%2300927F&label=downloads"/>
 
 ## Contents
 
@@ -21,7 +21,7 @@
 
 ## About
 
-Trusty file writes and reads.
+Trusty file reads and writes.
 
 ## Features
 
