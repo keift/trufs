@@ -8,7 +8,7 @@
 [Buffer]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer
 [Void]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Undefined
 
-# fs-trusty <img src="https://img.shields.io/npm/v/fs-trusty?label=version&color=%234472E7"/> <img src="https://img.shields.io/npm/l/fs-trusty?label=license&color=%234472E7"/> <img src="https://img.shields.io/node/v/fs-trusty?label=node&color=%2300927F"/> <img src="https://img.shields.io/npm/dt/fs-trusty?label=downloads&color=%2300927F"/>
+# trufs <img src="https://img.shields.io/npm/v/trufs?label=version&color=%234472E7"/> <img src="https://img.shields.io/npm/l/trufs?label=license&color=%234472E7"/> <img src="https://img.shields.io/node/v/trufs?label=node&color=%2300927F"/> <img src="https://img.shields.io/npm/dt/trufs?label=downloads&color=%2300927F"/>
 
 ## Contents
 
@@ -33,27 +33,27 @@ Trusty file reads and writes.
 
 NPM
 ```sh-session
-npm install fs-trusty
+npm install trufs
 ```
 
 PNPM
 ```sh-session
-pnpm install fs-trusty
+pnpm install trufs
 ```
 
 Bun
 ```sh-session
-bun add fs-trusty
+bun add trufs
 ```
 
 Deno
 ```sh-session
-deno install npm:fs-trusty
+deno install npm:trufs
 ```
 
 Yarn
 ```sh-session
-yarn add fs-trusty
+yarn add trufs
 ```
 
 ## Documentation

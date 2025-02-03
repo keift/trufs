@@ -1,7 +1,7 @@
 **/.github
 **/bun.lock
 **/CHANGELOG.md
-**/fs-trusty.code-workspace
+**/trufs.code-workspace
 **/install.bat
 **/node_modules
 **/package-lock.json

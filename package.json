@@ -1,5 +1,5 @@
 {
-  "name": "fs-trusty",
+  "name": "trufs",
   "author": "keift",
   "version": "1.0.2",
   "description": "Trusty file reads and writes.",
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/keift/fs-trusty.git"
+    "url": "git+https://github.com/keift/trufs.git"
   },
   "keywords": [
     "fs",
