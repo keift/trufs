@@ -60,13 +60,13 @@ yarn add trufs
 
 ### Methods
 
-`readFile(path, options?)`
+`readFile(file, options?)`
 
 Read file asynchronous.
 
 > | Parameter | Description |
 > | --- | --- |
-> | path | [String]<br/>File to read. |
+> | file | [String]<br/>File to read. |
 > | options | [Object] (optional)<br/>Method options. [More details](https://github.com/fabiospampinato/atomically?tab=readme-ov-file#usage) |
 >
 > returns [Promise]<[String] | [Buffer]>
@@ -80,13 +80,13 @@ Read file asynchronous.
 
 <br/>
 
-`readFileSync(path, options?)`
+`readFileSync(file, options?)`
 
 Read file synchronous.
 
 > | Parameter | Description |
 > | --- | --- |
-> | path | [String]<br/>File to read. |
+> | file | [String]<br/>File to read. |
 > | options | [Object] (optional)<br/>Method options. [More details](https://github.com/fabiospampinato/atomically?tab=readme-ov-file#usage) |
 >
 > returns [String] | [Buffer]
@@ -100,13 +100,13 @@ Read file synchronous.
 
 <br/>
 
-`writeFile(path, data, options?)`
+`writeFile(file, data, options?)`
 
 Write file asynchronous.
 
 > | Parameter | Description |
 > | --- | --- |
-> | path | [String]<br/>File to write. |
+> | file | [String]<br/>File to write. |
 > | data | [String] \| [Buffer]<br/>Data to be written. |
 > | options | [Object] (optional)<br/>Method options. [More details](https://github.com/fabiospampinato/atomically?tab=readme-ov-file#usage) |
 >
@@ -121,13 +121,13 @@ Write file asynchronous.
 
 <br/>
 
-`writeFileSync(path, data, options?)`
+`writeFileSync(file, data, options?)`
 
 Write file synchronous.
 
 > | Parameter | Description |
 > | --- | --- |
-> | path | [String]<br/>File to write. |
+> | file | [String]<br/>File to write. |
 > | data | [String] \| [Buffer]<br/>Data to be written. |
 > | options | [Object] (optional)<br/>Method options. [More details](https://github.com/fabiospampinato/atomically?tab=readme-ov-file#usage) |
 >
