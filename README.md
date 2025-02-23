@@ -158,8 +158,6 @@ Write file synchronous.
 > fs.writeFileSync("./config.json", JSON.stringify({}));
 > ```
 
-<br/>
-
 ## Links
 
 - [Change Log](CHANGELOG.md)
