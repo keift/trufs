@@ -1,15 +1,17 @@
 {
   "name": "trufs",
   "author": "keift",
-  "version": "1.0.2",
-  "description": "Trusty file reads and writes.",
+  "version": "1.1.0",
+  "description": "Trusty file methods.",
   "license": "MIT",
   "main": "main.js",
   "scripts": {
     "dev": "nodemon ./test/test.js"
   },
   "dependencies": {
-    "atomically": "^2.0.3"
+    "atomically": "^2.0.3",
+    "fs-extra": "^11.3.0",
+    "graceful-fs": "^4.2.11"
   },
   "devDependencies": {
     "nodemon": "^3.1.9"
@@ -24,6 +26,8 @@
   "keywords": [
     "fs",
     "file-system",
+    "graceful-fs",
+    "fs-extra",
     "atomic",
     "atomically",
     "atomic-reads",

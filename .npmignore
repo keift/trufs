@@ -1,9 +1,9 @@
 **/.github
 **/bun.lock
 **/CHANGELOG.md
-**/trufs.code-workspace
 **/install.bat
 **/node_modules
 **/package-lock.json
 **/run.bat
 **/test
+**/trufs.code-workspace

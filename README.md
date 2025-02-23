@@ -15,46 +15,64 @@
 - [About](#about)
 - [Features](#features)
 - [Installation](#installation)
+- [Usage](#usage)
 - [Documentation](#documentation)
 - [Links](#links)
   - [Change Log](CHANGELOG.md)
 
 ## About
 
-Trusty file reads and writes.
+Trusty file methods.
 
 ## Features
 
-  * Works with [Atomically](https://github.com/fabiospampinato/atomically)
   * Respects CommonJS
-  * All other `fs` functions are accessible
+  * Secure with [Atomically](https://github.com/fabiospampinato/atomically)
+  * Stable with [Graceful FS](https://github.com/isaacs/node-graceful-fs)
+  * Functional with [FS Extra](https://github.com/jprichardson/node-fs-extra)
 
 ## Installation
 
 NPM
+
 ```sh-session
 npm install trufs
 ```
 
 PNPM
+
 ```sh-session
 pnpm install trufs
 ```
 
+Yarn
+
+```sh-session
+yarn add trufs
+```
+
 Bun
+
 ```sh-session
 bun add trufs
 ```
 
 Deno
+
 ```sh-session
 deno install npm:trufs
 ```
 
-Yarn
-```sh-session
-yarn add trufs
-```
+## Usage
+
+It is enough to change the `fs` to `trufs`.
+
+> ```diff
+> - const fs = require("fs");
+> + const fs = require("trufs");
+>
+> fs.writeFileSync("./config.json", JSON.stringify({}));
+> ```
 
 ## Documentation
 
