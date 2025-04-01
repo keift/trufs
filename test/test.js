@@ -1,6 +1,6 @@
 const fs = require("../main.js");
 
-var number = 0;
+let number = 0;
 
 setInterval(() => {
   number++;
