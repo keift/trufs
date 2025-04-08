@@ -1,6 +1,6 @@
 {
   "name": "trufs",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Trusty file methods.",
   "license": "MIT",
   "main": "main.js",

@@ -26,10 +26,10 @@ Trusty file methods.
 
 ## Features
 
-  * Respects CommonJS
-  * Secure with [Atomically](https://github.com/fabiospampinato/atomically)
-  * Stable with [Graceful FS](https://github.com/isaacs/node-graceful-fs)
-  * Functional with [FS Extra](https://github.com/jprichardson/node-fs-extra)
+- Respects CommonJS
+- Secure with [Atomically](https://github.com/fabiospampinato/atomically)
+- Stable with [Graceful FS](https://github.com/isaacs/node-graceful-fs)
+- Functional with [FS Extra](https://github.com/jprichardson/node-fs-extra)
 
 ## Installation
 
@@ -67,12 +67,12 @@ deno install npm:trufs
 
 It is enough to change the `fs` to `trufs`.
 
-> ```diff
-> - const fs = require("fs");
-> + const fs = require("trufs");
->
-> fs.writeFileSync("./config.json", JSON.stringify({}));
-> ```
+```diff
+- const fs = require("fs");
++ const fs = require("trufs");
+
+fs.writeFileSync("./config.json", JSON.stringify({}));
+```
 
 ## Documentation
 
@@ -92,7 +92,7 @@ Read file asynchronous.
 >
 > Example:
 >
-> ```js
+> ```javascript
 > await fs.readFile("./config.json");
 > ```
 
@@ -112,7 +112,7 @@ Read file synchronous.
 >
 > Example:
 >
-> ```js
+> ```javascript
 > fs.readFileSync("./config.json");
 > ```
 
@@ -133,7 +133,7 @@ Write file asynchronous.
 >
 > Example:
 >
-> ```js
+> ```javascript
 > await fs.writeFile("./config.json", JSON.stringify({}));
 > ```
 
@@ -154,7 +154,7 @@ Write file synchronous.
 >
 > Example:
 >
-> ```js
+> ```javascript
 > fs.writeFileSync("./config.json", JSON.stringify({}));
 > ```
 
