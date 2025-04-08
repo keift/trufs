@@ -1,4 +1,5 @@
 **/.github
+**/assets
 **/bun.lock
 **/CHANGELOG.md
 **/install.bat
