@@ -8,7 +8,16 @@
 [Buffer]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer
 [Void]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Undefined
 
-# trufs <img src="https://img.shields.io/npm/v/trufs?label=version&color=%234472E7"/> <img src="https://img.shields.io/npm/l/trufs?label=license&color=%234472E7"/> <img src="https://img.shields.io/node/v/trufs?label=node&color=%2300927F"/> <img src="https://img.shields.io/npm/dt/trufs?label=downloads&color=%2300927F"/>
+<div align="center">
+  <br/>
+  <img src="https://i.ibb.co/JWCLvM2Q/unknown.png" width="350px"/>
+  <br/>
+  <br/>
+  <img src="https://img.shields.io/npm/v/trufs?label=version&color=%23633BFF"/>
+  <img src="https://img.shields.io/npm/l/trufs?label=license&color=%23633BFF"/>
+  <img src="https://img.shields.io/node/v/trufs?label=node&color=%2300927F"/>
+  <img src="https://img.shields.io/npm/dt/trufs?label=downloads&color=%2300927F"/>
+</div>
 
 ## Contents
 
