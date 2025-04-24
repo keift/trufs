@@ -13,7 +13,7 @@
     "graceful-fs": "^4.2.11"
   },
   "devDependencies": {
-    "nodemon": "^3.1.9"
+    "nodemon": "^3.1.10"
   },
   "engines": {
     "node": ">= 14.0.0"
