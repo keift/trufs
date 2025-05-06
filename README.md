@@ -77,8 +77,8 @@ deno install npm:trufs
 It is enough to change the `fs` to `trufs`.
 
 ```diff
-- const fs = require("fs");
-+ const fs = require("trufs");
+- import fs from "fs";
++ import fs from "trufs";
 
 fs.writeFileSync("./config.json", JSON.stringify({}));
 ```
