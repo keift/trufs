@@ -44,31 +44,31 @@ Trusty file methods.
 
 NPM
 
-```sh-session
+```shell
 npm install trufs
 ```
 
 PNPM
 
-```sh-session
+```shell
 pnpm install trufs
 ```
 
 Yarn
 
-```sh-session
+```shell
 yarn add trufs
 ```
 
 Bun
 
-```sh-session
+```shell
 bun add trufs
 ```
 
 Deno
 
-```sh-session
+```shell
 deno install npm:trufs
 ```
 
