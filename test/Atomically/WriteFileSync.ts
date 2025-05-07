@@ -2,7 +2,7 @@ import { fs } from "../../src/main";
 
 const interval = setInterval(() => {
   fs.writeFileSync("./test/test.json", JSON.stringify({updated_at: new Date().toISOString()}));
-}, 10);
+}, 5);
 
 setTimeout(() => {
   clearInterval(interval);
