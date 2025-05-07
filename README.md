@@ -78,7 +78,7 @@ It is enough to change the `fs` to `trufs`.
 
 ```diff
 - import fs from "fs";
-+ import fs from "trufs";
++ import { fs } from "trufs";
 
 fs.writeFileSync("./config.json", JSON.stringify({}));
 ```
