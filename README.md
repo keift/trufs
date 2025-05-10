@@ -24,8 +24,9 @@
 - [About](#about)
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Documentation](#documentation)
+  - [Import](#import)
+  - [Methods](#methods)
 - [Links](#links)
   - [Change Log](CHANGELOG.md)
 
@@ -72,7 +73,9 @@ Deno
 deno install npm:trufs
 ```
 
-## Usage
+## Documentation
+
+### Import
 
 It is enough to change the `fs` to `trufs`.
 
@@ -82,8 +85,6 @@ It is enough to change the `fs` to `trufs`.
 
 fs.writeFileSync("./config.json", JSON.stringify({}));
 ```
-
-## Documentation
 
 ### Methods
 

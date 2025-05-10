@@ -1,6 +1,6 @@
 import { fs } from "../../src/main";
 
-const interval = setInterval(() => {
+const interval: NodeJS.Timeout = setInterval(() => {
   fs.writeFileSync("./test/test.json", JSON.stringify({updated_at: new Date().toISOString()}));
 }, 5);
 
