@@ -8,6 +8,8 @@
 [Buffer]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer
 [Void]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Undefined
 
+[Fs]: ./src/types/Fs.type.ts
+
 <div align="center">
   <br/>
   <img src="https://i.ibb.co/JWCLvM2Q/unknown.png" width="350px"/>
@@ -79,16 +81,24 @@ deno install npm:trufs
 
 It is enough to change the `fs` to `trufs`.
 
-```diff
-- import fs from "fs";
-+ import { fs } from "trufs";
-
-fs.writeFileSync("./config.json", JSON.stringify({}));
-```
+> TypeScript
+>
+> ```diff
+> - import fs from "fs";
+> + import { fs, type Types as TrufsTypes } from "trufs";
+> ```
+>
+>
+> JavaScript
+>
+> ```diff
+> - import fs from "fs";
+> + import { fs } from "trufs";
+> ```
 
 ### Methods
 
-`readFile(filepath, options?)`
+`fs.readFile(filepath, options?)`
 
 Read file asynchronous.
 
@@ -108,7 +118,7 @@ Read file asynchronous.
 
 <br/>
 
-`readFileSync(filepath, options?)`
+`fs.readFileSync(filepath, options?)`
 
 Read file synchronous.
 
@@ -128,7 +138,7 @@ Read file synchronous.
 
 <br/>
 
-`writeFile(filepath, data, options?)`
+`fs.writeFile(filepath, data, options?)`
 
 Write file asynchronous.
 
@@ -149,7 +159,7 @@ Write file asynchronous.
 
 <br/>
 
-`writeFileSync(filepath, data, options?)`
+`fs.writeFileSync(filepath, data, options?)`
 
 Write file synchronous.
 
@@ -167,6 +177,8 @@ Write file synchronous.
 > ```javascript
 > fs.writeFileSync("./config.json", JSON.stringify({}));
 > ```
+
+### Types
 
 ## Links
 

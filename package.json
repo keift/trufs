@@ -10,8 +10,8 @@
     "dev": "bun run --watch ./examples/trufs.ts",
     "test": "bun run lint && npm run test:atomically && npm run test:fs-extra && npm run test:graceful-fs",
     "test:atomically": "npm run ./test/Atomically/WriteFileSync.ts",
-    "test:fs-extra": "npm run ./test/FS_Extra/Copy.ts",
-    "test:graceful-fs": "npm run ./test/Graceful_FS/Gracefulify.ts",
+    "test:fs-extra": "npm run ./test/FSExtra/Copy.ts",
+    "test:graceful-fs": "npm run ./test/GracefulFS/Gracefulify.ts",
     "build": "tsup",
     "lint": "eslint"
   },
@@ -38,10 +38,10 @@
   "keywords": [
     "fs",
     "file-system",
-    "graceful-fs",
-    "fs-extra",
-    "atomic",
     "atomically",
+    "fs-extra",
+    "graceful-fs",
+    "atomic",
     "atomic-reads",
     "atomic-writes"
   ]
