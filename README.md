@@ -194,7 +194,7 @@ Write file synchronous.
 > const Trufs: TrufsTypes.Fs = fs;
 >
 > const writing: unknown = Trufs.writeFileSync("./config.json", JSON.stringify({}));
-> const reading: string | Buffer = Trufs.readFileSync("./config.json", JSON.stringify({}));
+> const reading: string | Buffer = Trufs.readFileSync("./config.json");
 > ```
 
 ## Links
