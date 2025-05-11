@@ -7,7 +7,7 @@
   "module": "./dist/main.mjs",
   "types": "./dist/main.d.ts",
   "scripts": {
-    "dev": "bun run --watch ./examples/trufs.ts",
+    "dev": "bun run --watch ./examples/trufs.example.ts",
     "test": "bun run lint && npm run test:atomically && npm run test:fs-extra && npm run test:graceful-fs",
     "test:atomically": "npm run ./test/Atomically/WriteFileSync.ts",
     "test:fs-extra": "npm run ./test/FSExtra/Copy.ts",
