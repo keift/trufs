@@ -113,8 +113,8 @@ Read file asynchronous.
 >
 > Example:
 >
-> ```javascript
-> await fs.readFile("./config.json");
+> ```typescript
+> const reading: string | Buffer = await fs.readFile("./config.json");
 > ```
 
 <br/>
@@ -133,8 +133,8 @@ Read file synchronous.
 >
 > Example:
 >
-> ```javascript
-> fs.readFileSync("./config.json");
+> ```typescript
+> const reading: string | Buffer = fs.readFileSync("./config.json");
 > ```
 
 <br/>
@@ -154,8 +154,8 @@ Write file asynchronous.
 >
 > Example:
 >
-> ```javascript
-> await fs.writeFile("./config.json", JSON.stringify({}));
+> ```typescript
+> const writing: unknown = await fs.writeFile("./config.json", JSON.stringify({}));
 > ```
 
 <br/>
@@ -175,8 +175,8 @@ Write file synchronous.
 >
 > Example:
 >
-> ```javascript
-> fs.writeFileSync("./config.json", JSON.stringify({}));
+> ```typescript
+> const writing: unknown = fs.writeFileSync("./config.json", JSON.stringify({}));
 > ```
 
 ### Types
