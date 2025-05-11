@@ -29,6 +29,7 @@
 - [Documentation](#documentation)
   - [Import](#import)
   - [Methods](#methods)
+  - [Types](#types)
 - [Links](#links)
   - [Change Log](CHANGELOG.md)
 
@@ -179,6 +180,21 @@ Write file synchronous.
 > ```
 
 ### Types
+
+> | Type | Place |
+> | --- | --- |
+> | [Fs] | [fs](#methods) |
+>
+>
+> Example:
+>
+> ```typescript
+> import { fs, type Types as TrufsTypes } from "trufs";
+>
+> const Trufs: TrufsTypes.Fs = fs;
+>
+> Trufs.writeFileSync("./config.json", JSON.stringify({}));
+> ```
 
 ## Links
 
