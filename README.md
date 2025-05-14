@@ -21,7 +21,7 @@
   <img src="https://img.shields.io/node/v/trufs?label=node&color=%2300927F"/>
   <img src="https://img.shields.io/npm/dt/trufs?label=downloads&color=%2300927F"/>
 </div>
-d
+
 ## Contents
 
 - [About](#about)

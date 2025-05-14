@@ -1,5 +1,5 @@
 import typescript_eslint from "typescript-eslint";
-d
+
 export default [
   { ignores: ["./dist/**"] },
   ...typescript_eslint.configs.strict,
