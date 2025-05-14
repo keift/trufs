@@ -1,11 +1,11 @@
-[Function]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function
-[Promise]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
 [String]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
 [Number]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number
 [Object]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
 [Array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 [Boolean]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean
 [Buffer]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer
+[Function]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function
+[Promise]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
 [Void]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Undefined
 
 [Fs]: ./src/types/Fs.type.ts
@@ -41,38 +41,27 @@ Trusty file methods.
 
 - Respects CommonJS
 - Secure with [Atomically](https://github.com/fabiospampinato/atomically)
-- Stable with [Graceful FS](https://github.com/isaacs/node-graceful-fs)
 - Functional with [FS Extra](https://github.com/jprichardson/node-fs-extra)
+- Stable with [Graceful FS](https://github.com/isaacs/node-graceful-fs)
 
 ## Installation
 
-NPM
+You can install it with these commands.
 
 ```shell
+// NPM
 npm install trufs
-```
 
-PNPM
-
-```shell
+// PNPM
 pnpm install trufs
-```
 
-Yarn
-
-```shell
+// Yarn
 yarn add trufs
-```
 
-Bun
-
-```shell
+// Bun
 bun add trufs
-```
 
-Deno
-
-```shell
+// Deno
 deno install npm:trufs
 ```
 
