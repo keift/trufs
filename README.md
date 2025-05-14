@@ -46,7 +46,7 @@ Trusty file methods.
 
 ## Installation
 
-You can install it with these commands.
+You can install it as follows.
 
 ```shell
 // NPM
