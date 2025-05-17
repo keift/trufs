@@ -1,6 +1,6 @@
 {
   "name": "trufs",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "Trusty file methods.",
   "license": "MIT",
   "main": "./dist/main.js",
@@ -12,6 +12,7 @@
     "test:atomically": "npm run ./test/Atomically/WriteFileSync.ts",
     "test:fs-extra": "npm run ./test/FSExtra/Copy.ts",
     "test:graceful-fs": "npm run ./test/GracefulFS/Gracefulify.ts",
+    "prettier": "prettier --write ./",
     "build": "tsup",
     "lint": "eslint"
   },
@@ -24,6 +25,7 @@
   },
   "devDependencies": {
     "jiti": "^2.4.2",
+    "prettier": "^3.5.3",
     "tsup": "^8.5.0",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.32.1"
