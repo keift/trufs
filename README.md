@@ -17,8 +17,8 @@
   <br/>
   <img src="https://img.shields.io/npm/v/trufs?label=version&color=%23633BFF"/>
   <img src="https://img.shields.io/npm/l/trufs?label=license&color=%23633BFF"/>
-  <img src="https://img.shields.io/npm/unpacked-size/trufs?label=size&color=%2300927F"/>
   <img src="https://img.shields.io/npm/dt/trufs?label=downloads&color=%2300927F"/>
+  <img src="https://img.shields.io/npm/unpacked-size/trufs?label=size&color=%2300927F"/>
 </div>
 
 ## Contents
