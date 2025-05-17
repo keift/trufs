@@ -8,7 +8,6 @@
 [Function]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function
 [Promise]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
 [Void]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Undefined
-
 [Fs]: ./src/types/Fs.type.ts
 
 <div align="center">
@@ -79,7 +78,6 @@ It is enough to change the `fs` to `trufs`.
 > + import { fs, type Types as TrufsTypes } from "trufs";
 > ```
 >
->
 > JavaScript
 >
 > ```diff
@@ -93,13 +91,12 @@ It is enough to change the `fs` to `trufs`.
 
 Read file asynchronous.
 
-> | Parameter | Description |
-> | --- | --- |
-> | filepath | [String]<br/>File path to read. |
-> | options | [Object] (optional)<br/>Method options. [More details](https://github.com/fabiospampinato/atomically?tab=readme-ov-file#usage) |
+> | Parameter | Description                                                                                                                    |
+> | --------- | ------------------------------------------------------------------------------------------------------------------------------ |
+> | filepath  | [String]<br/>File path to read.                                                                                                |
+> | options   | [Object] (optional)<br/>Method options. [More details](https://github.com/fabiospampinato/atomically?tab=readme-ov-file#usage) |
 >
 > returns [Promise]<[String] | [Buffer]>
->
 >
 > Example:
 >
@@ -113,13 +110,12 @@ Read file asynchronous.
 
 Read file synchronous.
 
-> | Parameter | Description |
-> | --- | --- |
-> | filepath | [String]<br/>File path to read. |
-> | options | [Object] (optional)<br/>Method options. [More details](https://github.com/fabiospampinato/atomically?tab=readme-ov-file#usage) |
+> | Parameter | Description                                                                                                                    |
+> | --------- | ------------------------------------------------------------------------------------------------------------------------------ |
+> | filepath  | [String]<br/>File path to read.                                                                                                |
+> | options   | [Object] (optional)<br/>Method options. [More details](https://github.com/fabiospampinato/atomically?tab=readme-ov-file#usage) |
 >
 > returns [String] | [Buffer]
->
 >
 > Example:
 >
@@ -133,19 +129,21 @@ Read file synchronous.
 
 Write file asynchronous.
 
-> | Parameter | Description |
-> | --- | --- |
-> | filepath | [String]<br/>File path to write. |
-> | data | [String] \| [Buffer]<br/>Data to be written. |
-> | options | [Object] (optional)<br/>Method options. [More details](https://github.com/fabiospampinato/atomically?tab=readme-ov-file#usage) |
+> | Parameter | Description                                                                                                                    |
+> | --------- | ------------------------------------------------------------------------------------------------------------------------------ |
+> | filepath  | [String]<br/>File path to write.                                                                                               |
+> | data      | [String] \| [Buffer]<br/>Data to be written.                                                                                   |
+> | options   | [Object] (optional)<br/>Method options. [More details](https://github.com/fabiospampinato/atomically?tab=readme-ov-file#usage) |
 >
 > returns [Promise]<[Void]>
->
 >
 > Example:
 >
 > ```typescript
-> const writing: unknown = await fs.writeFile("./config.json", JSON.stringify({}));
+> const writing: unknown = await fs.writeFile(
+>   "./config.json",
+>   JSON.stringify({})
+> );
 > ```
 
 <br/>
@@ -154,27 +152,28 @@ Write file asynchronous.
 
 Write file synchronous.
 
-> | Parameter | Description |
-> | --- | --- |
-> | filepath | [String]<br/>File path to write. |
-> | data | [String] \| [Buffer]<br/>Data to be written. |
-> | options | [Object] (optional)<br/>Method options. [More details](https://github.com/fabiospampinato/atomically?tab=readme-ov-file#usage) |
+> | Parameter | Description                                                                                                                    |
+> | --------- | ------------------------------------------------------------------------------------------------------------------------------ |
+> | filepath  | [String]<br/>File path to write.                                                                                               |
+> | data      | [String] \| [Buffer]<br/>Data to be written.                                                                                   |
+> | options   | [Object] (optional)<br/>Method options. [More details](https://github.com/fabiospampinato/atomically?tab=readme-ov-file#usage) |
 >
 > returns [Void]
->
 >
 > Example:
 >
 > ```typescript
-> const writing: unknown = fs.writeFileSync("./config.json", JSON.stringify({}));
+> const writing: unknown = fs.writeFileSync(
+>   "./config.json",
+>   JSON.stringify({})
+> );
 > ```
 
 ### Types
 
-> | Type | Place |
-> | --- | --- |
+> | Type | Place          |
+> | ---- | -------------- |
 > | [Fs] | [fs](#methods) |
->
 >
 > Example:
 >
@@ -183,7 +182,10 @@ Write file synchronous.
 >
 > const Trufs: TrufsTypes.Fs = fs;
 >
-> const writing: unknown = Trufs.writeFileSync("./config.json", JSON.stringify({}));
+> const writing: unknown = Trufs.writeFileSync(
+>   "./config.json",
+>   JSON.stringify({})
+> );
 > const reading: string | Buffer = Trufs.readFileSync("./config.json");
 > ```
 
