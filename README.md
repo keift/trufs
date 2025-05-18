@@ -140,10 +140,7 @@ Write file asynchronous.
 > Example:
 >
 > ```typescript
-> const writing: unknown = await fs.writeFile(
->   "./config.json",
->   JSON.stringify({})
-> );
+> const writing: unknown = await fs.writeFile("./config.json", JSON.stringify({}));
 > ```
 
 <br/>
@@ -163,10 +160,7 @@ Write file synchronous.
 > Example:
 >
 > ```typescript
-> const writing: unknown = fs.writeFileSync(
->   "./config.json",
->   JSON.stringify({})
-> );
+> const writing: unknown = fs.writeFileSync("./config.json", JSON.stringify({}));
 > ```
 
 ### Types
@@ -182,10 +176,7 @@ Write file synchronous.
 >
 > const Trufs: TrufsTypes.Fs = fs;
 >
-> const writing: unknown = Trufs.writeFileSync(
->   "./config.json",
->   JSON.stringify({})
-> );
+> const writing: unknown = Trufs.writeFileSync("./config.json", JSON.stringify({}));
 > const reading: string | Buffer = Trufs.readFileSync("./config.json");
 > ```
 
