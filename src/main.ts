@@ -7,7 +7,3 @@ import type { Fs } from "./types/main.type";
 export const fs: Fs = Object.assign({}, GracefulFS, FSExtra, Atomically);
 
 export type * as Types from "./types/main.type";
-
-
-
-
