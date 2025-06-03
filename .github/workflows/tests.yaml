@@ -1,25 +1,17 @@
-name: Publish
+name: Tests
 
 on:
-  release:
-    types: [created]
-
-permissions:
-  id-token: write
+  push:
+    branches:
+      - "**"
 
 jobs:
-  npm:
+  test:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: 21
-          registry-url: https://registry.npmjs.org
 
       - name: Setup Bun
         uses: oven-sh/setup-bun@v2
@@ -35,9 +27,3 @@ jobs:
 
       - name: Build it
         run: bun run build
-
-      - name: Publish to the NPM
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_ACCESS_TOKEN }}
-        run: |
-          npm publish --provenance --access=public
