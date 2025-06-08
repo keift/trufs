@@ -21,7 +21,7 @@ export default [
       "default-case": "error", // Require default cases in switch statements.
       "func-style": ["error", "expression", { allowArrowFunctions: true }], // Enforce the consistent use of either function declarations or expressions assigned to variables.
       "no-duplicate-imports": "error", // Disallow duplicate module imports.
-      "no-empty": ["error", { allowEmptyCatch: true }], // Disallow empty block statements.
+      "no-empty": "error", // Disallow empty block statements.
       "no-multi-spaces": "error", // Disallow multiple spaces.
       "no-multiple-empty-lines": ["error", { max: 1 }], // Disallow multiple empty lines.
       "no-trailing-spaces": "error", // Disallow trailing whitespace at the end of lines.
