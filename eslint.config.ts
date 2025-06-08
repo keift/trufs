@@ -16,8 +16,8 @@ export default [
       "typescript-eslint": typescript_eslint.plugin
     },
     rules: {
-      "arrow-body-style": ["error", "never"], // Require braces around arrow function bodies.
-      "comma-dangle": ["error", "never"], // Require or disallow trailing commas.
+      "arrow-body-style": "error", // Require braces around arrow function bodies.
+      "comma-dangle": "error", // Require or disallow trailing commas.
       "default-case": "error", // Require default cases in switch statements.
       "func-style": ["error", "expression", { allowArrowFunctions: true }], // Enforce the consistent use of either function declarations or expressions assigned to variables.
       "no-duplicate-imports": "error", // Disallow duplicate module imports.
