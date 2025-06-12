@@ -27,6 +27,7 @@
 - [Features](#features)
 - [Installation](#installation)
 - [Documentation](#documentation)
+  - [Tree](#tree)
   - [Import](#import)
   - [Methods](#methods)
   - [Types](#types)
@@ -66,6 +67,25 @@ deno install npm:trufs
 ```
 
 ## Documentation
+
+### Tree
+
+Briefly as follows.
+
+```typescript
+Trufs
+│
+├── fs
+│   │
+│   ├── readFile(filepath, options?)
+│   ├── readFileSync(filepath, options?)
+│   ├── writeFile(filepath, data, options?)
+│   └── writeFileSync(filepath, data, options?)
+│
+└── type Types
+    │
+    └── Fs
+```
 
 ### Import
 
