@@ -16,7 +16,7 @@
     "tests:graceful-fs": "npm run ./tests/GracefulFS/Gracefulify.ts",
     "prettier": "prettier --write ./",
     "build": "tsup",
-    "lint": "eslint"
+    "lint": "eslint ./"
   },
   "dependencies": {
     "@types/fs-extra": "^11.0.4",
