@@ -1,0 +1,1 @@
+export type { Fs } from "../types/Fs.type";
