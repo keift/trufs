@@ -1,5 +1,5 @@
 import { fs } from "../../src/main";
 
-if (!fs.gracefulify) throw new Error("❌ [Gracefulify]");
+if (fs.gracefulify === undefined) throw new Error("❌ [Gracefulify]");
 
 console.log("✅ [Gracefulify] Checks successful!");
