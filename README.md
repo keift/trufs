@@ -112,7 +112,6 @@ It is enough to change the `fs` to `trufs`.
 
 ### Methods
 
-
 `fs.readFile(filepath, options?)`
 
 Read file asynchronous.
