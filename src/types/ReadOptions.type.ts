@@ -1,3 +1,3 @@
-import type { ReadOptions as _ReadOptions } from "atomically"
+import type { ReadOptions as _ReadOptions } from "atomically";
 
-export type ReadOptions = _ReadOptions
+export type ReadOptions = _ReadOptions;
