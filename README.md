@@ -112,6 +112,7 @@ It is enough to change the `fs` to `trufs`.
 
 ### Methods
 
+
 `fs.readFile(filepath, options?)`
 
 Read file asynchronous.
@@ -126,7 +127,7 @@ Read file asynchronous.
 > Example:
 >
 > ```typescript
-> const reading: string | Buffer = await fs.readFile("./config.json");
+> await fs.readFile("./config.json");
 > ```
 
 <br/>
@@ -145,7 +146,7 @@ Read file synchronous.
 > Example:
 >
 > ```typescript
-> const reading: string | Buffer = fs.readFileSync("./config.json");
+> fs.readFileSync("./config.json");
 > ```
 
 <br/>
@@ -165,7 +166,7 @@ Write file asynchronous.
 > Example:
 >
 > ```typescript
-> const writing: unknown = await fs.writeFile("./config.json", JSON.stringify({}));
+> await fs.writeFile("./config.json", JSON.stringify({}));
 > ```
 
 <br/>
@@ -185,7 +186,7 @@ Write file synchronous.
 > Example:
 >
 > ```typescript
-> const writing: unknown = fs.writeFileSync("./config.json", JSON.stringify({}));
+> fs.writeFileSync("./config.json", JSON.stringify({}));
 > ```
 
 ### Types
