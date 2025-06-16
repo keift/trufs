@@ -89,7 +89,9 @@ Trufs
 │
 └── type Types
     │
-    └── Fs
+    ├── Fs
+    ├── ReadOptions
+    └── WriteOptions
 ```
 
 ### Import
