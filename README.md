@@ -9,6 +9,8 @@
 [Promise]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
 [Void]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Undefined
 [Fs]: ./src/types/Fs.type.ts
+[ReadOptions]: https://github.com/fabiospampinato/atomically/blob/master/src/types.ts#L16
+[WriteOptions]: https://github.com/fabiospampinato/atomically/blob/master/src/types.ts#L22
 
 <div align="center">
   <br/>
@@ -32,7 +34,10 @@
   - [Methods](#methods)
   - [Types](#types)
 - [Links](#links)
-  - [Change Log](CHANGELOG.md)
+  - [Discord](https://discord.gg/keift)
+  - [Telegram](https://t.me/keiftt)
+  - [Twitter](https://x.com/keiftttt)
+  - [GitHub](https://github.com/keift)
 
 ## About
 
@@ -114,7 +119,7 @@ Read file asynchronous.
 > | Parameter | Description                                                                                                                    |
 > | --------- | ------------------------------------------------------------------------------------------------------------------------------ |
 > | filepath  | [String]<br/>File path to read.                                                                                                |
-> | options   | [Object] (optional)<br/>Method options. [More details](https://github.com/fabiospampinato/atomically?tab=readme-ov-file#usage) |
+> | options   | [ReadOptions] (optional)<br/>Read options. |
 >
 > returns [Promise]<[String] | [Buffer]>
 >
@@ -133,7 +138,7 @@ Read file synchronous.
 > | Parameter | Description                                                                                                                    |
 > | --------- | ------------------------------------------------------------------------------------------------------------------------------ |
 > | filepath  | [String]<br/>File path to read.                                                                                                |
-> | options   | [Object] (optional)<br/>Method options. [More details](https://github.com/fabiospampinato/atomically?tab=readme-ov-file#usage) |
+> | options   | [ReadOptions] (optional)<br/>Read options. |
 >
 > returns [String] | [Buffer]
 >
@@ -153,7 +158,7 @@ Write file asynchronous.
 > | --------- | ------------------------------------------------------------------------------------------------------------------------------ |
 > | filepath  | [String]<br/>File path to write.                                                                                               |
 > | data      | [String] \| [Buffer]<br/>Data to be written.                                                                                   |
-> | options   | [Object] (optional)<br/>Method options. [More details](https://github.com/fabiospampinato/atomically?tab=readme-ov-file#usage) |
+> | options   | [WriteOptions] (optional)<br/>Write options.|
 >
 > returns [Promise]<[Void]>
 >
@@ -173,7 +178,7 @@ Write file synchronous.
 > | --------- | ------------------------------------------------------------------------------------------------------------------------------ |
 > | filepath  | [String]<br/>File path to write.                                                                                               |
 > | data      | [String] \| [Buffer]<br/>Data to be written.                                                                                   |
-> | options   | [Object] (optional)<br/>Method options. [More details](https://github.com/fabiospampinato/atomically?tab=readme-ov-file#usage) |
+> | options   | [WriteOptions] (optional)<br/>Write options.|
 >
 > returns [Void]
 >
@@ -185,25 +190,27 @@ Write file synchronous.
 
 ### Types
 
-> | Type | Place          |
-> | ---- | -------------- |
-> | [Fs] | [fs](#methods) |
->
-> Example:
->
-> ```typescript
-> import { fs, type Types as TrufsTypes } from "trufs";
->
-> const Trufs: TrufsTypes.Fs = fs;
->
-> const writing: unknown = Trufs.writeFileSync("./config.json", JSON.stringify({}));
-> const reading: string | Buffer = Trufs.readFileSync("./config.json");
-> ```
+| Type | 
+ | ---- | 
+ | [Fs] |
+ | [ReadOptions] |
+ |[WriteOptions]|
 
 ## Links
 
-- [Change Log](CHANGELOG.md)
+- [Discord](https://discord.gg/keift)
+- [Telegram](https://t.me/keiftt)
+- [Twitter](https://x.com/keiftttt)
+- [GitHub](https://github.com/keift)
 
 ## License
 
-[MIT](LICENSE.md)
+MIT License
+
+Copyright (c) 2025 Keift
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
