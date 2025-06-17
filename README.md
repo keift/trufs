@@ -8,6 +8,8 @@
 [Function]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function
 [Promise]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
 [Void]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Undefined
+[ReadOptionsDefault]: https://github.com/fabiospampinato/atomically/blob/master/src/constants.ts#L15
+[WriteOptionsDefault]: https://github.com/fabiospampinato/atomically/blob/master/src/constants.ts#L17
 [Fs]: ./src/types/Fs.type.ts
 [ReadOptions]: https://github.com/fabiospampinato/atomically/blob/master/src/types.ts#L16
 [WriteOptions]: https://github.com/fabiospampinato/atomically/blob/master/src/types.ts#L22
@@ -119,10 +121,10 @@ It is enough to change the `fs` to `trufs`.
 
 Read file asynchronous.
 
-> | Parameter | Description                                |
-> | --------- | ------------------------------------------ |
-> | filepath  | [String]<br/>File path to read.            |
-> | options   | [ReadOptions] (optional)<br/>Read options. |
+> | Parameter | Default              | Description                                |
+> | --------- | -------------------- | ------------------------------------------ |
+> | filepath  |                      | [String]<br/>File path to read.            |
+> | options   | [ReadOptionsDefault] | [ReadOptions] (optional)<br/>Read options. |
 >
 > returns [Promise]<[String] | [Buffer]>
 >
@@ -138,10 +140,10 @@ Read file asynchronous.
 
 Read file synchronous.
 
-> | Parameter | Description                                |
-> | --------- | ------------------------------------------ |
-> | filepath  | [String]<br/>File path to read.            |
-> | options   | [ReadOptions] (optional)<br/>Read options. |
+> | Parameter | Default              | Description                                |
+> | --------- | -------------------- | ------------------------------------------ |
+> | filepath  |                      | [String]<br/>File path to read.            |
+> | options   | [ReadOptionsDefault] | [ReadOptions] (optional)<br/>Read options. |
 >
 > returns [String] | [Buffer]
 >
@@ -157,11 +159,11 @@ Read file synchronous.
 
 Write file asynchronous.
 
-> | Parameter | Description                                  |
-> | --------- | -------------------------------------------- |
-> | filepath  | [String]<br/>File path to write.             |
-> | data      | [String] \| [Buffer]<br/>Data to be written. |
-> | options   | [WriteOptions] (optional)<br/>Write options. |
+> | Parameter | Default               | Description                                  |
+> | --------- | --------------------- | -------------------------------------------- |
+> | filepath  |                       | [String]<br/>File path to write.             |
+> | data      |                       | [String] \| [Buffer]<br/>Data to be written. |
+> | options   | [WriteOptionsDefault] | [WriteOptions] (optional)<br/>Write options. |
 >
 > returns [Promise]<[Void]>
 >
@@ -177,11 +179,11 @@ Write file asynchronous.
 
 Write file synchronous.
 
-> | Parameter | Description                                  |
-> | --------- | -------------------------------------------- |
-> | filepath  | [String]<br/>File path to write.             |
-> | data      | [String] \| [Buffer]<br/>Data to be written. |
-> | options   | [WriteOptions] (optional)<br/>Write options. |
+> | Parameter | Default               | Description                                  |
+> | --------- | --------------------- | -------------------------------------------- |
+> | filepath  |                       | [String]<br/>File path to write.             |
+> | data      |                       | [String] \| [Buffer]<br/>Data to be written. |
+> | options   | [WriteOptionsDefault] | [WriteOptions] (optional)<br/>Write options. |
 >
 > returns [Void]
 >
