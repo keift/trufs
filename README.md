@@ -14,7 +14,6 @@
 [ReadOptions]: https://github.com/fabiospampinato/atomically/blob/master/src/types.ts#L16
 [WriteOptions]: https://github.com/fabiospampinato/atomically/blob/master/src/types.ts#L22
 
-
 <div align="center">
   <br/>
   <img src="https://i.ibb.co/JWCLvM2Q/unknown.png" width="350px"/>
