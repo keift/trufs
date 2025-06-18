@@ -7,5 +7,5 @@ const interval: NodeJS.Timeout = setInterval(() => {
 setTimeout(() => {
   clearInterval(interval);
 
-  console.log("✅ [WriteFileSync] Checks successful!");
+  console.log("✅ Success");
 }, 5000);

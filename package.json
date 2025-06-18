@@ -1,6 +1,6 @@
 {
   "name": "trufs",
-  "version": "1.2.12",
+  "version": "1.2.13",
   "description": "Trusty file methods.",
   "license": "MIT",
   "homepage": "https://github.com/keift/trufs",
@@ -9,11 +9,7 @@
   "module": "./dist/main.mjs",
   "types": "./dist/main.d.ts",
   "scripts": {
-    "dev": "bun run --watch ./examples/trufs.example.ts",
-    "tests": "bun run lint && npm run tests:atomically && npm run tests:fs-extra && npm run tests:graceful-fs",
-    "tests:atomically": "npm run ./tests/Atomically/WriteFileSync.ts",
-    "tests:fs-extra": "npm run ./tests/FSExtra/Copy.ts",
-    "tests:graceful-fs": "npm run ./tests/GracefulFS/Gracefulify.ts",
+    "tests": "bun run lint && bun test",
     "prettier": "prettier --write ./",
     "build": "tsup",
     "lint": "eslint ./"
