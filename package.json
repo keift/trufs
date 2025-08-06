@@ -18,7 +18,7 @@
     "@types/fs-extra": "^11.0.4",
     "@types/graceful-fs": "^4.1.9",
     "atomically": "^2.0.3",
-    "fs-extra": "^11.3.0",
+    "fs-extra": "^11.3.1",
     "graceful-fs": "^4.2.11"
   },
   "devDependencies": {
