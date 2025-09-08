@@ -22,7 +22,7 @@
     "graceful-fs": "^4.2.11"
   },
   "devDependencies": {
-    "neatlint": "^1.1.1",
+    "neatlint": "^1.1.2",
     "prettier": "^3.6.2",
     "tsup": "^8.5.0"
   },
@@ -40,4 +40,4 @@
     "atomic-reads",
     "atomic-writes"
   ]
-}
+} 
