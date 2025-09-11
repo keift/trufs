@@ -90,26 +90,15 @@ Trufs
 │   ├── writeFile(filepath, data, options?)
 │   └── writeFileSync(filepath, data, options?)
 │
-└── type Types
-    │
-    ├── Fs
-    ├── ReadOptions
-    └── WriteOptions
+├── type Fs
+├── type ReadOptions
+└── type WriteOptions
 ```
 
 ### Import
 
 It is enough to change the `fs` to `trufs`.
 
-> TypeScript
->
-> ```diff
-> - import fs from "fs";
-> + import { fs, type Types as TrufsTypes } from "trufs";
-> ```
->
-> JavaScript
->
 > ```diff
 > - import fs from "fs";
 > + import { fs } from "trufs";
