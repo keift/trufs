@@ -1,6 +1,6 @@
 {
   "name": "trufs",
-  "version": "1.2.18",
+  "version": "1.2.19",
   "description": "Trusty file methods.",
   "license": "MIT",
   "homepage": "https://github.com/keift/trufs",
@@ -41,3 +41,4 @@
     "atomic-writes"
   ]
 }
+
