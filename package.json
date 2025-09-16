@@ -18,11 +18,11 @@
     "@types/fs-extra": "^11.0.4",
     "@types/graceful-fs": "^4.1.9",
     "atomically": "^2.0.3",
-    "fs-extra": "^11.3.1",
+    "fs-extra": "^11.3.2",
     "graceful-fs": "^4.2.11"
   },
   "devDependencies": {
-    "neatlint": "^1.1.4",
+    "neatlint": "^1.1.5",
     "prettier": "^3.6.2",
     "tsup": "^8.5.0"
   },
@@ -41,4 +41,3 @@
     "atomic-writes"
   ]
 }
-
