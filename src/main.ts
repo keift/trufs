@@ -1,9 +1,9 @@
-import * as Atomically from "atomically";
-import * as FSExtra from "fs-extra";
-import * as GracefulFS from "graceful-fs";
+import * as Atomically from 'atomically';
+import * as FSExtra from 'fs-extra';
+import * as GracefulFS from 'graceful-fs';
 
-import type { Fs } from "./types/Fs.type";
+import type { Fs } from './types/Fs.type';
 
 export const fs: Fs = Object.assign({}, GracefulFS, FSExtra, Atomically);
 
-export type * from "./barrels/Types.barrel";
+export type * from './barrels/Types.barrel';

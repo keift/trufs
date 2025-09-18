@@ -120,7 +120,7 @@ Read file asynchronous.
 > Example:
 >
 > ```typescript
-> await fs.readFile("./config.json");
+> await fs.readFile('./config.json');
 > ```
 
 <br/>
@@ -139,7 +139,7 @@ Read file synchronous.
 > Example:
 >
 > ```typescript
-> fs.readFileSync("./config.json");
+> fs.readFileSync('./config.json');
 > ```
 
 <br/>
@@ -159,7 +159,7 @@ Write file asynchronous.
 > Example:
 >
 > ```typescript
-> await fs.writeFile("./config.json", JSON.stringify({}));
+> await fs.writeFile('./config.json', JSON.stringify({}));
 > ```
 
 <br/>
@@ -179,7 +179,7 @@ Write file synchronous.
 > Example:
 >
 > ```typescript
-> fs.writeFileSync("./config.json", JSON.stringify({}));
+> fs.writeFileSync('./config.json', JSON.stringify({}));
 > ```
 
 ### Types
