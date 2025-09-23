@@ -1,0 +1,10 @@
+{
+  "extends": ["config:base"],
+  "schedule": ["every day"],
+
+  "packageRules": [
+    { "matchPackagePatterns": ["^github-actions$"], "enabled": false },
+
+    { "matchPackagePatterns": ["^npm$"], "enabled": true, "versioning": "increase" }
+  ]
+}
