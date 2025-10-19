@@ -8,4 +8,4 @@ setTimeout(() => {
   clearInterval(interval);
 
   console.log('✅ Success');
-}, 5000);
+}, 10000);
