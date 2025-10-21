@@ -11,8 +11,8 @@
 [ReadOptionsDefault]: https://github.com/fabiospampinato/atomically/blob/master/src/constants.ts#L15
 [WriteOptionsDefault]: https://github.com/fabiospampinato/atomically/blob/master/src/constants.ts#L17
 [Fs]: ./src/types/Fs.type.ts
-[ReadOptions]: https://github.com/fabiospampinato/atomically/blob/master/src/types.ts#L16
-[WriteOptions]: https://github.com/fabiospampinato/atomically/blob/master/src/types.ts#L22
+[ReadOptions]: ./src/types/ReadOptions.type.ts
+[WriteOptions]: ./src/types/WriteOptions.type.ts
 
 <div align="center">
   <br/>
