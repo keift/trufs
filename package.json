@@ -15,14 +15,14 @@
     "lint": "eslint ./"
   },
   "dependencies": {
-    "@types/fs-extra": "^11.0.4",
-    "@types/graceful-fs": "^4.1.9",
-    "atomically": "^2.1.0",
-    "fs-extra": "^11.3.2",
-    "graceful-fs": "^4.2.11"
+    "@types/fs-extra": "latest",
+    "@types/graceful-fs": "latest",
+    "atomically": "latest",
+    "fs-extra": "latest",
+    "graceful-fs": "latest"
   },
   "devDependencies": {
-    "neatlint": "^1.1.24",
+    "neatlint": "^1.1.26",
     "prettier": "^3.6.2",
     "tsup": "^8.5.0"
   },
