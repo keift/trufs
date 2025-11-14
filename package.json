@@ -1,6 +1,6 @@
 {
   "name": "trufs",
-  "version": "1.2.23",
+  "version": "1.2.24",
   "description": "Trusty file methods.",
   "license": "MIT",
   "homepage": "https://github.com/keift/trufs",
@@ -17,6 +17,7 @@
   "dependencies": {
     "@types/fs-extra": "latest",
     "@types/graceful-fs": "latest",
+    "@types/node": "latest",
     "atomically": "latest",
     "fs-extra": "latest",
     "graceful-fs": "latest"

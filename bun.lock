@@ -7,6 +7,7 @@
       "dependencies": {
         "@types/fs-extra": "latest",
         "@types/graceful-fs": "latest",
+        "@types/node": "^24.10.1",
         "atomically": "latest",
         "fs-extra": "latest",
         "graceful-fs": "latest",
