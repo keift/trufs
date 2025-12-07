@@ -23,7 +23,7 @@
     "graceful-fs": "latest"
   },
   "devDependencies": {
-    "neatlint": "^1.1.26",
+    "neatlint": "^1.1.27",
     "prettier": "^3.7.4",
     "tsup": "^8.5.1"
   },
