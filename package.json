@@ -1,6 +1,6 @@
 {
   "name": "trufs",
-  "version": "1.2.25",
+  "version": "1.2.26",
   "description": "Trusty file methods.",
   "license": "MIT",
   "homepage": "https://github.com/keift/trufs",
@@ -23,7 +23,7 @@
     "graceful-fs": "latest"
   },
   "devDependencies": {
-    "neatlint": "^1.2.0",
+    "neatlint": "^1.2.1",
     "prettier": "^3.7.4",
     "tsup": "^8.5.1"
   },
