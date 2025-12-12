@@ -1,6 +1,6 @@
 {
   "name": "trufs",
-  "version": "1.2.24",
+  "version": "1.2.25",
   "description": "Trusty file methods.",
   "license": "MIT",
   "homepage": "https://github.com/keift/trufs",

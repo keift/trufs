@@ -16,7 +16,7 @@
 
 <div align="center">
   <br/>
-  <img src="https://i.ibb.co/JWCLvM2Q/unknown.png" width="350px"/>
+  <img src="./assets/logo.png" width="350px"/>
   <br/>
   <br/>
   <img src="https://img.shields.io/npm/v/trufs?label=version&color=%23633BFF"/>
