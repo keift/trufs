@@ -59,10 +59,10 @@ You can install it as follows.
 
 ```shell
 // NPM
-npm install trufs
+npm add trufs
 
 // PNPM
-pnpm install trufs
+pnpm add trufs
 
 // Yarn
 yarn add trufs
@@ -71,7 +71,7 @@ yarn add trufs
 bun add trufs
 
 // Deno
-deno install npm:trufs
+deno add npm:trufs
 ```
 
 ## Documentation
