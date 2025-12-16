@@ -71,7 +71,7 @@ yarn add trufs
 bun add trufs
 
 // Deno
-deno add npm:trufs
+deno add trufs
 ```
 
 ## Documentation
