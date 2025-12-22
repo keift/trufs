@@ -62,19 +62,19 @@ Trusty file methods.
 You can install it as follows.
 
 ```shell
-// NPM
+# NPM
 npm add trufs
 
-// PNPM
+# PNPM
 pnpm add trufs
 
-// Yarn
+# Yarn
 yarn add trufs
 
-// Bun
+# Bun
 bun add trufs
 
-// Deno
+# Deno
 deno add trufs
 ```
 
