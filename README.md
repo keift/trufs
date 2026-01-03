@@ -60,7 +60,7 @@ Trusty file methods.
 
 You can install it as follows.
 
-> **🛈 Note**
+> **ⓘ Note**
 >
 > During installation, these packages are installed automatically: `atomically`, `fs-extra`, and `graceful-fs`.
 >
