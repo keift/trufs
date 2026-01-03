@@ -60,12 +60,6 @@ Trusty file methods.
 
 You can install it as follows.
 
-> **ⓘ Note**
->
-> During installation, these packages are installed automatically: `atomically`, `fs-extra`, and `graceful-fs`.
->
-> Therefore, you do not need to install these packages separately. If they are already listed in your project's dependencies, keeping them is unnecessary and they can be safely removed.
-
 ```shell
 # NPM
 npm add trufs
