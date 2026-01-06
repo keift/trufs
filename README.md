@@ -84,7 +84,7 @@ deno add trufs
 Briefly as follows.
 
 ```typescript
-Trufs
+trufs
 │
 ├── fs
 │   │

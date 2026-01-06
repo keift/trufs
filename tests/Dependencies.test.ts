@@ -6,8 +6,8 @@ if (Package.dependencies.atomically !== 'latest') throw new Error('❌ Error: at
 if (Package.dependencies['fs-extra'] !== 'latest') throw new Error('❌ Error: fs-extra');
 if (Package.dependencies['graceful-fs'] !== 'latest') throw new Error('❌ Error: graceful-fs');
 
-if (Package.devDependencies.neatlint !== 'latest') throw new Error('❌ Error: neatlint');
 if (Package.devDependencies.prettier !== 'latest') throw new Error('❌ Error: prettier');
+if (Package.devDependencies.rulint !== 'latest') throw new Error('❌ Error: rulint');
 if (Package.devDependencies.tsup !== 'latest') throw new Error('❌ Error: tsup');
 
 console.log('✅ Success');
