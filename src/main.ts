@@ -6,4 +6,4 @@ import type { Fs } from './types/Fs.type';
 
 export const fs: Fs = Object.assign({}, GracefulFS, FSExtra, Atomically);
 
-export type * from './barrels/Types.barrel';
+export type * from './exports/Types.export';
