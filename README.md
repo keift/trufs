@@ -42,8 +42,8 @@
   - [Types](#types)
 - [Links](#links)
   - [Discord](https://discord.gg/keift)
-  - [Telegram](https://t.me/keiftt)
-  - [Twitter](https://x.com/keiftttt)
+  - [Telegram](https://t.me/keiftco)
+  - [Twitter](https://x.com/keiftco)
   - [GitHub](https://github.com/keift)
 - [License](#license)
 
@@ -198,8 +198,8 @@ Write file synchronous.
 ## Links
 
 - [Discord](https://discord.gg/keift)
-- [Telegram](https://t.me/keiftt)
-- [Twitter](https://x.com/keiftttt)
+- [Telegram](https://t.me/keiftco)
+- [Twitter](https://x.com/keiftco)
 - [GitHub](https://github.com/keift)
 
 ## License
