@@ -10,8 +10,8 @@
 
 <!---->
 
-[ReadOptionsDefault]: https://github.com/fabiospampinato/atomically/blob/master/src/constants.ts#L15
-[WriteOptionsDefault]: https://github.com/fabiospampinato/atomically/blob/master/src/constants.ts#L17
+[ReadOptionsDefault]: https://github.com/fabiospampinato/atomically/blob/master/src/constants.ts
+[WriteOptionsDefault]: https://github.com/fabiospampinato/atomically/blob/master/src/constants.ts
 
 <!---->
 
