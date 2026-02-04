@@ -116,10 +116,10 @@ It is enough to change the `fs` to `trufs`.
 
 Read file asynchronous.
 
-> | Parameter | Type          | Default              | Description        |
-> | --------- | ------------- | -------------------- | ------------------ |
-> | filepath  | [String]      |                      | File path to read. |
-> | options?  | [ReadOptions] | [ReadOptionsDefault] | Read options.      |
+> | Parameter  | Type          | Default              | Description        |
+> | ---------- | ------------- | -------------------- | ------------------ |
+> | `filepath` | [String]      |                      | File path to read. |
+> | `options?` | [ReadOptions] | [ReadOptionsDefault] | Read options.      |
 >
 > returns [Promise]<[String] | [Buffer]>
 >
@@ -135,10 +135,10 @@ Read file asynchronous.
 
 Read file synchronous.
 
-> | Parameter | Type          | Default              | Description        |
-> | --------- | ------------- | -------------------- | ------------------ |
-> | filepath  | [String]      |                      | File path to read. |
-> | options?  | [ReadOptions] | [ReadOptionsDefault] | Read options.      |
+> | Parameter  | Type          | Default              | Description        |
+> | ---------- | ------------- | -------------------- | ------------------ |
+> | `filepath` | [String]      |                      | File path to read. |
+> | `options?` | [ReadOptions] | [ReadOptionsDefault] | Read options.      |
 >
 > returns [String] | [Buffer]
 >
@@ -154,11 +154,11 @@ Read file synchronous.
 
 Write file asynchronous.
 
-> | Parameter | Type                 | Default               | Description         |
-> | --------- | -------------------- | --------------------- | ------------------- |
-> | filepath  | [String]             |                       | File path to write. |
-> | data      | [String] \| [Buffer] |                       | Data to be written. |
-> | options?  | [WriteOptions]       | [WriteOptionsDefault] | Write options.      |
+> | Parameter  | Type                 | Default               | Description         |
+> | ---------- | -------------------- | --------------------- | ------------------- |
+> | `filepath` | [String]             |                       | File path to write. |
+> | `data`     | [String] \| [Buffer] |                       | Data to be written. |
+> | `options?` | [WriteOptions]       | [WriteOptionsDefault] | Write options.      |
 >
 > returns [Promise]<[Void]>
 >
@@ -174,11 +174,11 @@ Write file asynchronous.
 
 Write file synchronous.
 
-> | Parameter | Type                 | Default               | Description         |
-> | --------- | -------------------- | --------------------- | ------------------- |
-> | filepath  | [String]             |                       | File path to write. |
-> | data      | [String] \| [Buffer] |                       | Data to be written. |
-> | options?  | [WriteOptions]       | [WriteOptionsDefault] | Write options.      |
+> | Parameter  | Type                 | Default               | Description         |
+> | ---------- | -------------------- | --------------------- | ------------------- |
+> | `filepath` | [String]             |                       | File path to write. |
+> | `data`     | [String] \| [Buffer] |                       | Data to be written. |
+> | `options?` | [WriteOptions]       | [WriteOptionsDefault] | Write options.      |
 >
 > returns [Void]
 >
