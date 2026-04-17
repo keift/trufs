@@ -1,16 +1,16 @@
 {
   "name": "trufs",
-  "version": "1.2.33",
+  "version": "1.2.34",
   "description": "Trusty file methods.",
   "license": "MIT",
   "homepage": "https://github.com/keift/trufs",
   "bugs": "https://github.com/keift/trufs/issues",
-  "main": "./dist/main.js",
+  "main": "./dist/main.cjs",
   "module": "./dist/main.mjs",
-  "types": "./dist/main.d.ts",
+  "types": "./dist/main.d.mts",
   "scripts": {
     "tests": "bun run lint && bun test",
-    "build": "tsup",
+    "build": "tsdown",
     "prettier": "prettier --write ./",
     "lint": "eslint ./"
   },
@@ -24,7 +24,7 @@
   "devDependencies": {
     "prettier": "latest",
     "rulint": "latest",
-    "tsup": "latest"
+    "tsdown": "latest"
   },
   "repository": {
     "type": "git",
