@@ -1,13 +1,30 @@
 import Package from '../package.json';
 
-if (Package.dependencies['@types/fs-extra'] !== 'latest') throw new Error('❌ Error: @types/fs-extra');
-if (Package.dependencies['@types/graceful-fs'] !== 'latest') throw new Error('❌ Error: @types/graceful-fs');
-if (Package.dependencies.atomically !== 'latest') throw new Error('❌ Error: atomically');
-if (Package.dependencies['fs-extra'] !== 'latest') throw new Error('❌ Error: fs-extra');
-if (Package.dependencies['graceful-fs'] !== 'latest') throw new Error('❌ Error: graceful-fs');
+const dependencies = {
+  '@types/fs-extra': 'latest',
+  '@types/graceful-fs': 'latest',
+  atomically: 'latest',
+  'fs-extra': 'latest',
+  'graceful-fs': 'latest'
+};
 
-if (Package.devDependencies.prettier !== 'latest') throw new Error('❌ Error: prettier');
-if (Package.devDependencies.rulint !== 'latest') throw new Error('❌ Error: rulint');
-if (Package.devDependencies.tsdown !== 'latest') throw new Error('❌ Error: tsdown');
+const dev_dependencies = {
+  prettier: 'latest',
+  rulint: 'latest',
+  tsdown: 'latest',
+  unrun: 'latest'
+};
+
+for (const [_dependency, version] of Object.entries(dependencies)) {
+  const dependency = _dependency as keyof typeof dependencies;
+
+  if (Package.dependencies[dependency] !== version) throw new Error(`❌ Error: ${dependency}`);
+}
+
+for (const [_dependency, version] of Object.entries(dev_dependencies)) {
+  const dependency = _dependency as keyof typeof dev_dependencies;
+
+  if (Package.devDependencies[dependency] !== version) throw new Error(`❌ Error: ${dependency}`);
+}
 
 console.log('✅ Success');
