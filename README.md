@@ -15,9 +15,9 @@
 
 <!---->
 
-[Fs]: ./src/types/Fs.type.ts
-[ReadOptions]: ./src/types/ReadOptions.type.ts
-[WriteOptions]: ./src/types/WriteOptions.type.ts
+[Fs]: ./src/types/fs.ts
+[ReadOptions]: ./src/types/read-options.ts
+[WriteOptions]: ./src/types/write-options.ts
 
 <div align="center">
   <br/>
