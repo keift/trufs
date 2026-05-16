@@ -1,15 +1,3 @@
-[String]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
-[Number]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number
-[Boolean]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean
-[Date]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
-[Buffer]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer
-[Promise]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
-[Void]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Undefined
-[Null]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/null
-[Undefined]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Undefined
-
-<!---->
-
 [ReadOptionsDefault]: https://github.com/fabiospampinato/atomically/blob/master/src/constants.ts
 [WriteOptionsDefault]: https://github.com/fabiospampinato/atomically/blob/master/src/constants.ts
 
@@ -117,10 +105,10 @@ Read file asynchronous.
 
 > | Parameter  | Type          | Default              | Description        |
 > | ---------- | ------------- | -------------------- | ------------------ |
-> | `filepath` | [String]      |                      | File path to read. |
+> | `filepath` | String        |                      | File path to read. |
 > | `options?` | [ReadOptions] | [ReadOptionsDefault] | Read options.      |
 >
-> returns [Promise]<[String] | [Buffer]>
+> returns Promise<String | Buffer>
 >
 > Example:
 >
@@ -136,10 +124,10 @@ Read file synchronous.
 
 > | Parameter  | Type          | Default              | Description        |
 > | ---------- | ------------- | -------------------- | ------------------ |
-> | `filepath` | [String]      |                      | File path to read. |
+> | `filepath` | String        |                      | File path to read. |
 > | `options?` | [ReadOptions] | [ReadOptionsDefault] | Read options.      |
 >
-> returns [String] | [Buffer]
+> returns String | Buffer
 >
 > Example:
 >
@@ -153,13 +141,13 @@ Read file synchronous.
 
 Write file asynchronous.
 
-> | Parameter  | Type                 | Default               | Description         |
-> | ---------- | -------------------- | --------------------- | ------------------- |
-> | `filepath` | [String]             |                       | File path to write. |
-> | `data`     | [String] \| [Buffer] |                       | Data to be written. |
-> | `options?` | [WriteOptions]       | [WriteOptionsDefault] | Write options.      |
+> | Parameter  | Type             | Default               | Description         |
+> | ---------- | ---------------- | --------------------- | ------------------- |
+> | `filepath` | String           |                       | File path to write. |
+> | `data`     | String \| Buffer |                       | Data to be written. |
+> | `options?` | [WriteOptions]   | [WriteOptionsDefault] | Write options.      |
 >
-> returns [Promise]<[Void]>
+> returns Promise<Void>
 >
 > Example:
 >
@@ -173,13 +161,13 @@ Write file asynchronous.
 
 Write file synchronous.
 
-> | Parameter  | Type                 | Default               | Description         |
-> | ---------- | -------------------- | --------------------- | ------------------- |
-> | `filepath` | [String]             |                       | File path to write. |
-> | `data`     | [String] \| [Buffer] |                       | Data to be written. |
-> | `options?` | [WriteOptions]       | [WriteOptionsDefault] | Write options.      |
+> | Parameter  | Type             | Default               | Description         |
+> | ---------- | ---------------- | --------------------- | ------------------- |
+> | `filepath` | String           |                       | File path to write. |
+> | `data`     | String \| Buffer |                       | Data to be written. |
+> | `options?` | [WriteOptions]   | [WriteOptionsDefault] | Write options.      |
 >
-> returns [Void]
+> returns Void
 >
 > Example:
 >
