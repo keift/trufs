@@ -4,8 +4,8 @@
 <!---->
 
 [Fs]: ./src/types/fs.ts
-[ReadOptions]: ./src/types/read-options.ts
-[WriteOptions]: ./src/types/write-options.ts
+[ReadOptions]: ./src/types/read_options.ts
+[WriteOptions]: ./src/types/write_options.ts
 
 <div align="center">
   <br/>
