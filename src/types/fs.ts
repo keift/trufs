@@ -1,5 +1,5 @@
-import type * as Atomically from 'atomically';
-import type * as FSExtra from 'fs-extra';
-import type * as GracefulFS from 'graceful-fs';
+import type * as atomically from 'atomically';
+import type fs_extra from 'fs-extra';
+import type graceful_fs from 'graceful-fs';
 
-export type Fs = typeof Atomically & typeof FSExtra & typeof GracefulFS;
+export type Fs = typeof atomically & typeof fs_extra & typeof graceful_fs;
