@@ -1,5 +1,5 @@
-[ReadOptionsDefault]: https://github.com/fabiospampinato/atomically/blob/master/src/constants.ts
-[WriteOptionsDefault]: https://github.com/fabiospampinato/atomically/blob/master/src/constants.ts
+[read_options]: https://github.com/fabiospampinato/atomically/blob/master/src/constants.ts
+[write_options]: https://github.com/fabiospampinato/atomically/blob/master/src/constants.ts
 
 <!---->
 
@@ -76,12 +76,14 @@ Briefly as follows.
 ```typescript
 trufs
 │
-├── fs
-│   │
-│   ├── readFile(filepath, options?)
-│   ├── readFileSync(filepath, options?)
-│   ├── writeFile(filepath, data, options?)
-│   └── writeFileSync(filepath, data, options?)
+└── fs
+    │
+    ├── readFile(filepath, options?)
+    ├── readFileSync(filepath, options?)
+    ├── writeFile(filepath, data, options?)
+    └── writeFileSync(filepath, data, options?)
+
+trufs/types
 │
 ├── type Fs
 ├── type ReadOptions
@@ -103,10 +105,10 @@ It is enough to change the `fs` to `trufs`.
 
 Read file asynchronous.
 
-> | Parameter  | Type          | Default              | Description        |
-> | ---------- | ------------- | -------------------- | ------------------ |
-> | `filepath` | String        |                      | File path to read. |
-> | `options?` | [ReadOptions] | [ReadOptionsDefault] | Read options.      |
+> | Parameter  | Type          | Default        | Description        |
+> | ---------- | ------------- | -------------- | ------------------ |
+> | `filepath` | String        |                | File path to read. |
+> | `options?` | [ReadOptions] | [read_options] | Read options.      |
 >
 > returns Promise<String | Buffer>
 >
@@ -122,10 +124,10 @@ Read file asynchronous.
 
 Read file synchronous.
 
-> | Parameter  | Type          | Default              | Description        |
-> | ---------- | ------------- | -------------------- | ------------------ |
-> | `filepath` | String        |                      | File path to read. |
-> | `options?` | [ReadOptions] | [ReadOptionsDefault] | Read options.      |
+> | Parameter  | Type          | Default        | Description        |
+> | ---------- | ------------- | -------------- | ------------------ |
+> | `filepath` | String        |                | File path to read. |
+> | `options?` | [ReadOptions] | [read_options] | Read options.      |
 >
 > returns String | Buffer
 >
@@ -141,11 +143,11 @@ Read file synchronous.
 
 Write file asynchronous.
 
-> | Parameter  | Type             | Default               | Description         |
-> | ---------- | ---------------- | --------------------- | ------------------- |
-> | `filepath` | String           |                       | File path to write. |
-> | `data`     | String \| Buffer |                       | Data to be written. |
-> | `options?` | [WriteOptions]   | [WriteOptionsDefault] | Write options.      |
+> | Parameter  | Type             | Default         | Description         |
+> | ---------- | ---------------- | --------------- | ------------------- |
+> | `filepath` | String           |                 | File path to write. |
+> | `data`     | String \| Buffer |                 | Data to be written. |
+> | `options?` | [WriteOptions]   | [write_options] | Write options.      |
 >
 > returns Promise<Void>
 >
@@ -161,11 +163,11 @@ Write file asynchronous.
 
 Write file synchronous.
 
-> | Parameter  | Type             | Default               | Description         |
-> | ---------- | ---------------- | --------------------- | ------------------- |
-> | `filepath` | String           |                       | File path to write. |
-> | `data`     | String \| Buffer |                       | Data to be written. |
-> | `options?` | [WriteOptions]   | [WriteOptionsDefault] | Write options.      |
+> | Parameter  | Type             | Default         | Description         |
+> | ---------- | ---------------- | --------------- | ------------------- |
+> | `filepath` | String           |                 | File path to write. |
+> | `data`     | String \| Buffer |                 | Data to be written. |
+> | `options?` | [WriteOptions]   | [write_options] | Write options.      |
 >
 > returns Void
 >
