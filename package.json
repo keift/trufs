@@ -19,8 +19,8 @@
     "tests": "bun run lint && bun test",
     "retouch": "bun run prettier",
     "build": "tsdown",
-    "prettier": "prettier --write ./",
-    "lint": "eslint ./"
+    "lint": "eslint ./",
+    "prettier": "prettier --write ./"
   },
   "dependencies": {
     "@types/fs-extra": "latest",
